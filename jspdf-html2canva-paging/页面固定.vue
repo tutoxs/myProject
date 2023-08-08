@@ -73,7 +73,6 @@ export default {
       }
       return false;
     },
-
     pdfs(pdfDom, title) {
       // 避免出现浏览器滚动条导致的内容不全处理
       document.body.scrollTop = document.documentElement.scrollTop = 0;

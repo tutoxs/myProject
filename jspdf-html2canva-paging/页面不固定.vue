@@ -77,9 +77,11 @@ export default {
       if (Math.sign(unllHei) == -1) {
         unllHei = 24;
       }
-      // 获取该div的父节点,创建新节点，设置样式
+      // 获取该div的父节点
       let divParent = currentNode.parentNode;
+      //创建新节点
       let newNode = document.createElement("div");
+      //设置样式
       newNode.className = "emptyDiv";
       newNode.style.height = unllHei + "px";
       newNode.style.width = "100%";
